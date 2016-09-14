@@ -1,0 +1,90 @@
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans+Condensed:300|Shadows+Into+Light+Two|Syncopate';
+
+html , body {
+  background-image: url("../img/galaxy-wallpapers-22-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+
+/* NAVBAR SECTION */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color:#7a7a7a;
+    padding:50px;
+  }
+
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color:white;
+  background-color: rgba(0,0,0,.4);
+  border-radius: 6px;
+}
+.navbar-default {
+  border: none;
+}
+
+#nav-link-position {
+  display: flex;
+  justify-content:flex-end;
+}
+
+#basic-logo {
+  float:left;
+}
+
+#logo {
+  font-family: 'Syncopate', sans-serif;
+  float: left;
+  color: white;
+  border: 5px solid black;
+  border-radius: 6px;
+  background-color: black;
+  padding: 10px;
+  font-size: 50px;
+  margin-top: 22px;
+  margin-left: 12px;
+  position: relative;
+  z-index: 99999;
+}
+
+#jumbo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.jumbotron {
+  background-color: rgba(0,0,0,.4);
+  color: white;
+  margin-top: 120px;
+}
+
+.thumbnail {
+  margin-top: 220px;
+  background-color: rgba(0,0,0,.4);
+  border: none;
+}
+
+.thumbnail .caption {
+  color: white;
+}
+
+
+
+
+
+
+
+footer {
+  height: 150px;
+}
