@@ -79,7 +79,30 @@ html , body {
   color: white;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
 
+.fa-instagram {
+  font-size: 50px;
+  margin-left: 20px;
+  color: white;
+}
+.fa-snapchat-square {
+  font-size: 50px;
+  margin-left: 20px;
+  color: white;
+}
+.fa-facebook-square {
+  font-size: 50px;
+  color: white;
+}
+/*
+.flexy {
+  display: flex;
+  align-items:
+}*/
 
 
 
